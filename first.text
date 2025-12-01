@@ -1,0 +1,10 @@
+Task:
+Design and implement a script that:
+	•	Reads 10GB of server logs (split into chunks)
+	•	Uses multiprocessing to parallelize parsing
+	•	Cleans malformed lines
+	•	Extracts IP, timestamp, endpoint, status
+	•	Writes output into compressed Parquet
+
+Deliverable:
+Upload: /processed/logs_cleaned/ (parquet files)
